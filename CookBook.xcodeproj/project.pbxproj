@@ -13,6 +13,9 @@
 		D5982F9328FAE5620060DF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5982F9128FAE5620060DF50 /* Main.storyboard */; };
 		D5982F9528FAE5640060DF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5982F9428FAE5640060DF50 /* Assets.xcassets */; };
 		D5982F9828FAE5640060DF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5982F9628FAE5640060DF50 /* LaunchScreen.storyboard */; };
+		D5982FA028FAE9500060DF50 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5982F9F28FAE9500060DF50 /* SignInViewController.swift */; };
+		D5982FA228FAECEB0060DF50 /* CandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5982FA128FAECEB0060DF50 /* CandyViewController.swift */; };
+		D5982FA428FB081A0060DF50 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5982FA328FB081A0060DF50 /* SingUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D5982F9428FAE5640060DF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5982F9728FAE5640060DF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5982F9928FAE5640060DF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5982F9F28FAE9500060DF50 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D5982FA128FAECEB0060DF50 /* CandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyViewController.swift; sourceTree = "<group>"; };
+		D5982FA328FB081A0060DF50 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				D5982F8D28FAE5620060DF50 /* SceneDelegate.swift */,
 				D5982F8F28FAE5620060DF50 /* ViewController.swift */,
 				D5982F9128FAE5620060DF50 /* Main.storyboard */,
+				D5982FA328FB081A0060DF50 /* SingUpViewController.swift */,
+				D5982FA128FAECEB0060DF50 /* CandyViewController.swift */,
+				D5982F9F28FAE9500060DF50 /* SignInViewController.swift */,
 				D5982F9428FAE5640060DF50 /* Assets.xcassets */,
 				D5982F9628FAE5640060DF50 /* LaunchScreen.storyboard */,
 				D5982F9928FAE5640060DF50 /* Info.plist */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5982FA228FAECEB0060DF50 /* CandyViewController.swift in Sources */,
+				D5982FA028FAE9500060DF50 /* SignInViewController.swift in Sources */,
 				D5982F9028FAE5620060DF50 /* ViewController.swift in Sources */,
 				D5982F8C28FAE5620060DF50 /* AppDelegate.swift in Sources */,
+				D5982FA428FB081A0060DF50 /* SingUpViewController.swift in Sources */,
 				D5982F8E28FAE5620060DF50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
